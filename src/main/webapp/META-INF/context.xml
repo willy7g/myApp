@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context antiJARLocking="true" path="/myapp"/>
+<Context antiJARLocking="true" path="/myapp">
+   <Resource auth="Container" driverClassName="org.postgresql.Driver" 
+              maxActive="10" maxIdle="10" maxWait="40000" name="jdbc/dbmyapp" 
+              password="1234" type="javax.sql.DataSource" url="jdbc:postgresql://localhost:5432/dbmyapp" 
+              username="postgres">
+    </Resource>
+
+
+</Context>
